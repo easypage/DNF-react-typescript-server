@@ -2,7 +2,8 @@ const express = require("express"); // express 임포트
 const app = express(); // app생성
 const PORT = process.env.PORT || 5000;
 const cors = require("cors");
-const { CharcterRouter, ItemRouter } = require("./Router/Item");
+const { CharcterRouter } = require("./Router/Character");
+const { ItemRouter } = require("./Router/Item");
 
 app.listen(PORT);
 
