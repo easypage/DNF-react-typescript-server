@@ -1,11 +1,14 @@
 const express = require("express"); // express 임포트
 const router = express.Router();
 
+const characterAPI = require("../API/CharacterAPI.js");
+
 router.use(function (req, res, next) {
   next();
 });
 
 router.get("/", async function (req, res) {
+  console.log(characterAPI.defaultSearch());
   res.send("캐릭터 페이지입니다.");
 });
 
