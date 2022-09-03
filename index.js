@@ -15,8 +15,7 @@ app.use(express.json());
 app.use("/character", CharcterRouter);
 app.use("/item", ItemRouter);
 
-app.get("/", function (req, res) {
-  defaultSearch("prey","9ea844d6c6a69c6770c3dadb2f413bf1");
-  res.send("DNF 프로젝트 서버입니다.");
+app.get("/",  async function (req, res) {
+res.send("기본페이지입니다.")
 });
 // chid 9ea844d6c6a69c6770c3dadb2f413bf1 prey
