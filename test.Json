@@ -1,0 +1,909 @@
+{
+  "character": {
+    "characterId": "9ea844d6c6a69c6770c3dadb2f413bf1",
+    "characterName": "메론맛어썰트",
+    "level": 110,
+    "jobId": "afdf3b989339de478e85b614d274d1ef",
+    "jobGrowId": "92da05ec93fb43406e193ffb9a2a629b",
+    "jobName": "거너(남)",
+    "jobGrowName": "眞 어썰트",
+    "adventureName": "메론맛모험단",
+    "guildId": "03b6205e4e67918d3996f8959712ef5d",
+    "guildName": "오빛",
+    "setItemInfo": []
+  },
+  "equipment": [
+    {
+      "slotId": "WEAPON",
+      "slotName": "무기",
+      "itemId": "f1356e3338ba5bc427614e50753f5ad9",
+      "itemName": "근원을 삼킨 자동권총",
+      "itemType": "무기",
+      "itemTypeDetail": "자동권총",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 8,
+      "itemGradeName": "최상급",
+      "enchant": { "status": [{ "name": "모든 속성 강화", "value": 13 }] },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 10976, "buff": 2064 },
+        "options": [
+          {
+            "level": 39,
+            "expRate": 52.07,
+            "explain": "거너 1~100Lv 모든 스킬 공격력 10% 증가",
+            "explainDetail": "거너 1~100Lv 모든 스킬 공격력 10% 증가",
+            "damage": 2916
+          },
+          {
+            "level": 42,
+            "expRate": 53.79,
+            "explain": "거너 1~100Lv 모든 스킬 Lv +1",
+            "explainDetail": "거너 1~100Lv 모든 스킬 Lv +1 (각성기 제외)",
+            "damage": 3108
+          },
+          {
+            "level": 42,
+            "expRate": 62.88,
+            "explain": "물리 방어력 +7000\n마법 방어력 +7000",
+            "explainDetail": "물리 방어력 +7000\n마법 방어력 +7000",
+            "damage": 2486,
+            "buff": 1036
+          },
+          {
+            "level": 41,
+            "expRate": 81.25,
+            "explain": "화속성 저항 10 증가",
+            "explainDetail": "화속성 저항 10 증가",
+            "damage": 2466,
+            "buff": 1028
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "TITLE",
+      "slotName": "칭호",
+      "itemId": "3179e71ab5fb0df275241f2b32b5e936",
+      "itemName": "환영을 정복한",
+      "itemType": "액세서리",
+      "itemTypeDetail": "칭호",
+      "itemAvailableLevel": 1,
+      "itemRarity": "유니크",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 0,
+      "amplificationName": null,
+      "refine": 0
+    },
+    {
+      "slotId": "JACKET",
+      "slotName": "상의",
+      "itemId": "f1c7c4a53ee71c392e6dd6f35d0215ab",
+      "itemName": "쉐도우블랙 슈트",
+      "itemType": "방어구",
+      "itemTypeDetail": "경갑 상의",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 0,
+      "itemGradeName": "최상급",
+      "enchant": {
+        "status": [
+          { "name": "물리 공격력", "value": 45 },
+          { "name": "마법 공격력", "value": 45 },
+          { "name": "독립 공격력", "value": 45 }
+        ]
+      },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 10346, "buff": 3773 },
+        "options": [
+          {
+            "level": 35,
+            "expRate": 91.43,
+            "explain": "[장비 옵션 조작키] 입력 시 30초 동안 유지되는 저주받은 허수아비를 소환하여 주변 500px 범위 내 적을 5초 동안 저주 상태로 만듦\n자신이 저주받은 허수아비 범위 내에 있을 때 스킬 쿨타임 회복 속도 20% 증가",
+            "explainDetail": "[장비 옵션 조작키] 입력 시 30초 동안 유지되는 저주받은 허수아비를 소환하여 주변 500px 범위 내 적을 5초 동안 저주 상태로 만듦 (쿨타임 30초)\n자신이 저주받은 허수아비 범위 내에 있을 때 스킬 쿨타임 회복 속도 20% 증가 (각성기 제외)",
+            "damage": 2811,
+            "buff": 897
+          },
+          {
+            "level": 38,
+            "expRate": 83.02,
+            "explain": "상태 이상에 걸린 적 공격 시 HP 1% 회복",
+            "explainDetail": "상태 이상에 걸린 적 공격 시 HP 1% 회복 (쿨타임 1초)",
+            "damage": 2890,
+            "buff": 921
+          },
+          {
+            "level": 39,
+            "expRate": 7.44,
+            "explain": "공격 속도 +8%\n캐스팅 속도 +12%",
+            "explainDetail": "공격 속도 +8%\n캐스팅 속도 +12%",
+            "damage": 2333,
+            "buff": 972
+          },
+          {
+            "level": 38,
+            "expRate": 92.45,
+            "explain": "500px 범위 내 저주 상태인 대상 하나 당 피해 증가 +751",
+            "explainDetail": "500px 범위 내 저주 상태인 대상 하나 당 피해 증가 +751 (최대 10중첩)",
+            "damage": 2312,
+            "buff": 983
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "SHOULDER",
+      "slotName": "머리어깨",
+      "itemId": "cafe4996178c8b4cde7b58fe393172ff",
+      "itemName": "끝을 바라보는 시선",
+      "itemType": "방어구",
+      "itemTypeDetail": "경갑 머리어깨",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 0,
+      "itemGradeName": "중급",
+      "enchant": {
+        "status": [
+          { "name": "마법 크리티컬 히트", "value": "5%" },
+          { "name": "물리 크리티컬 히트", "value": "5%" }
+        ]
+      },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 9040, "buff": 3839 },
+        "options": [
+          {
+            "level": 39,
+            "expRate": 2.48,
+            "explain": "10콤보 달성 시 30초 동안 피해 증가 +7290, 스킬 MP 소모량 175% 증가",
+            "explainDetail": "10콤보 달성 시 30초 동안 피해 증가 +7290, 스킬 MP 소모량 175% 증가 (최대 1중첩)",
+            "damage": 2121,
+            "buff": 920
+          },
+          {
+            "level": 39,
+            "expRate": 2.48,
+            "explain": "30콤보 달성 시 30초 동안 피해 증가 +4374",
+            "explainDetail": "30콤보 달성 시 30초 동안 피해 증가 +4374 (최대 1중첩)",
+            "damage": 2121,
+            "buff": 920
+          },
+          {
+            "level": 42,
+            "expRate": 7.58,
+            "explain": "적중률 +10%",
+            "explainDetail": "적중률 +10%",
+            "damage": 2486,
+            "buff": 1036
+          },
+          {
+            "level": 38,
+            "expRate": 32.08,
+            "explain": "회피율 +8%",
+            "explainDetail": "회피율 +8%",
+            "damage": 2312,
+            "buff": 963
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "PANTS",
+      "slotName": "하의",
+      "itemId": "bba14a8f1a473d5a432311e72f49ff3a",
+      "itemName": "라이트 어댑터 팬츠",
+      "itemType": "방어구",
+      "itemTypeDetail": "가죽 하의",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 0,
+      "itemGradeName": "최상급",
+      "enchant": {
+        "status": [
+          { "name": "물리 공격력", "value": 45 },
+          { "name": "마법 공격력", "value": 45 },
+          { "name": "독립 공격력", "value": 45 }
+        ]
+      },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 6389, "buff": 3594 },
+        "options": [
+          {
+            "level": 32,
+            "expRate": 73.91,
+            "explain": "명속성 저항 1당 명속성 강화 +1\n명속성 저항 -20",
+            "explainDetail": "명속성 저항 1당 명속성 강화 +1 (최대 30 증가)\n명속성 저항 -20",
+            "damage": 993,
+            "buff": 882
+          },
+          {
+            "level": 31,
+            "expRate": 50,
+            "explain": "피격 시 10초 동안 명속성 강화 +20\nHP MAX -1000",
+            "explainDetail": "피격 시 10초 동안 명속성 강화 +20 (최대 1중첩)\nHP MAX -1000",
+            "damage": 984,
+            "buff": 874
+          },
+          {
+            "level": 33,
+            "expRate": 19.23,
+            "explain": "명속성 강화 15 증가",
+            "explainDetail": "명속성 강화 15 증가",
+            "damage": 2206,
+            "buff": 919
+          },
+          {
+            "level": 33,
+            "expRate": 57.69,
+            "explain": "명속성 피격 시 10초 동안 명속성 저항 20 증가",
+            "explainDetail": "명속성 피격 시 10초 동안 명속성 저항 20 증가 (쿨타임 5초, 최대 1중첩)",
+            "damage": 2206,
+            "buff": 919
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "SHOES",
+      "slotName": "신발",
+      "itemId": "5fc5efd565cdd61e59361fe71ed5f6e1",
+      "itemName": "천재 기술자의 두터운 보호부츠",
+      "itemType": "방어구",
+      "itemTypeDetail": "중갑 신발",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 2,
+      "itemGradeName": "최상급",
+      "enchant": {
+        "status": [
+          { "name": "마법 크리티컬 히트", "value": "5%" },
+          { "name": "물리 크리티컬 히트", "value": "5%" }
+        ]
+      },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 5840, "buff": 3888 },
+        "options": [
+          {
+            "level": 39,
+            "expRate": 42.15,
+            "explain": "스킬 MP 소모량 증가 옵션 총 합의 5% 만큼 스킬 공격력 증가\n스킬 MP 소모량 100% 증가",
+            "explainDetail": "스킬 MP 소모량 증가 옵션 총 합의 5% 만큼 스킬 공격력 증가 (최대 25%)\n스킬 MP 소모량 100% 증가",
+            "damage": 530,
+            "buff": 948
+          },
+          {
+            "level": 39,
+            "expRate": 4.96,
+            "explain": "MP가 90% 이하일 때 피해 증가 +713\n- MP가 10%씩 추가로 감소될 때마다 피해 증가 중첩 수 1 증가",
+            "explainDetail": "MP가 90% 이하일 때 피해 증가 +713 (최대 9중첩)\n- MP가 10%씩 추가로 감소될 때마다 피해 증가 중첩 수 1 증가",
+            "damage": 530,
+            "buff": 948
+          },
+          {
+            "level": 39,
+            "expRate": 22.31,
+            "explain": "이동 속도 +8%",
+            "explainDetail": "이동 속도 +8%",
+            "damage": 2333,
+            "buff": 972
+          },
+          {
+            "level": 40,
+            "expRate": 35.79,
+            "explain": "MP MAX +945",
+            "explainDetail": "MP MAX +945",
+            "damage": 2447,
+            "buff": 1020
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "WAIST",
+      "slotName": "허리",
+      "itemId": "12fde00e523a6e1e3a389a27d08b1655",
+      "itemName": "천재 기술자의 멀티툴 벨트",
+      "itemType": "방어구",
+      "itemTypeDetail": "중갑 허리",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 0,
+      "itemGradeName": "최상급",
+      "enchant": {
+        "status": [
+          { "name": "마법 크리티컬 히트", "value": "5%" },
+          { "name": "물리 크리티컬 히트", "value": "5%" }
+        ]
+      },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 9596, "buff": 3796 },
+        "options": [
+          {
+            "level": 39,
+            "expRate": 14.88,
+            "explain": "던전 입장 시 피해 증가 +4374\n스킬 MP 소모량 100% 증가",
+            "explainDetail": "던전 입장 시 피해 증가 +4374\n스킬 MP 소모량 100% 증가",
+            "damage": 2651,
+            "buff": 948
+          },
+          {
+            "level": 39,
+            "expRate": 83.47,
+            "explain": "스킬로 소모한 MP의 양이 30000이 될 때마다 20초 동안 피해 증가",
+            "explainDetail": "스킬로 소모한 MP의 양이 30000이 될 때마다 20초 동안 피해 증가 +1750 (최대 5중첩)",
+            "damage": 2651,
+            "buff": 948
+          },
+          {
+            "level": 37,
+            "expRate": 73.91,
+            "explain": "MP MAX +945",
+            "explainDetail": "MP MAX +945",
+            "damage": 2290,
+            "buff": 955
+          },
+          {
+            "level": 37,
+            "expRate": 89.13,
+            "explain": "공격 시 MP 3500 회복",
+            "explainDetail": "공격 시 MP 3500 회복 (쿨타임 1초)",
+            "damage": 2004,
+            "buff": 945
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "AMULET",
+      "slotName": "목걸이",
+      "itemId": "967e5d84f11c310b316f075c92316cd5",
+      "itemName": "고양된 분노의 목걸이",
+      "itemType": "액세서리",
+      "itemTypeDetail": "목걸이",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 0,
+      "itemGradeName": "최상급",
+      "enchant": { "status": [{ "name": "모든 속성 강화", "value": 19 }] },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 9726, "buff": 3562 },
+        "options": [
+          {
+            "level": 32,
+            "expRate": 0,
+            "explain": "20콤보 달성 시 30초 동안 적 방어력 8% 무시",
+            "explainDetail": "20콤보 달성 시 30초 동안 적 방어력 8% 무시 (최대 1중첩)",
+            "damage": 2235,
+            "buff": 847
+          },
+          {
+            "level": 32,
+            "expRate": 78.26,
+            "explain": "200콤보 달성 시 500px 내 있는 보스, 네임드, 챔피언 몬스터의 남은 HP 1% 감소",
+            "explainDetail": "200콤보 달성 시 500px 내 있는 보스, 네임드, 챔피언 몬스터의 남은 HP 1% 감소 (쿨타임 15초, 적의 남은 HP 감소 효과는 적 최대 HP의 5% 까지만 적용됩니다. 버퍼 캐릭터는 발동되지 않습니다.)",
+            "damage": 2235,
+            "buff": 847
+          },
+          {
+            "level": 31,
+            "expRate": 70,
+            "explain": "MP 1분당 348 회복",
+            "explainDetail": "MP 1분당 348 회복",
+            "damage": 2164,
+            "buff": 902
+          },
+          {
+            "level": 35,
+            "expRate": 8.57,
+            "explain": "모든 속성 강화 15 증가\n모든 속성 저항 10 감소",
+            "explainDetail": "모든 속성 강화 15 증가\n모든 속성 저항 10 감소",
+            "damage": 3092,
+            "buff": 966
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "WRIST",
+      "slotName": "팔찌",
+      "itemId": "efc736cc907c60072bb92146ae006257",
+      "itemName": "생명이 담긴 가죽 토시",
+      "itemType": "액세서리",
+      "itemTypeDetail": "팔찌",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 4,
+      "itemGradeName": "최상급",
+      "enchant": { "status": [{ "name": "모든 속성 강화", "value": 19 }] },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 5702, "buff": 3468 },
+        "options": [
+          {
+            "level": 31,
+            "expRate": 10,
+            "explain": "데미지의 50%를 감전 데미지로 전환\n감전 데미지 10% 증가",
+            "explainDetail": "데미지의 50%를 감전 데미지로 전환\n감전 데미지 10% 증가",
+            "damage": 2213,
+            "buff": 856
+          },
+          {
+            "level": 30,
+            "expRate": 0,
+            "explain": "모든 피격 데미지의 50%를 감전 데미지로 받음\n감전 상태 적 공격 시 스킬 공격력 2% 증가",
+            "explainDetail": "모든 피격 데미지의 50%를 감전 데미지로 받음\n감전 상태 적 공격 시 스킬 공격력 2% 증가",
+            "damage": 2192,
+            "buff": 848
+          },
+          {
+            "level": 29,
+            "expRate": 25,
+            "explain": "감전 상태 적 공격 시 스킬 공격력 5% 증가",
+            "explainDetail": "감전 상태 적 공격 시 스킬 공격력 5% 증가",
+            "damage": 761,
+            "buff": 862
+          },
+          {
+            "level": 30,
+            "expRate": 29.41,
+            "explain": "감전 데미지 10% 증가",
+            "explainDetail": "감전 데미지 10% 증가",
+            "damage": 536,
+            "buff": 902
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "RING",
+      "slotName": "반지",
+      "itemId": "13ec4223a5649e83e09d95a87ab61cb4",
+      "itemName": "어댑터블 투톤 링",
+      "itemType": "액세서리",
+      "itemTypeDetail": "반지",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 0,
+      "itemGradeName": "최상급",
+      "enchant": { "status": [{ "name": "모든 속성 강화", "value": 21 }] },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 7867, "buff": 3523 },
+        "options": [
+          {
+            "level": 32,
+            "expRate": 47.83,
+            "explain": "공격 시 50% 확률로 10초 동안 유지되는 구슬을 생성하고 구슬 획득 시 아래의 효과 적용\n- 검은색 구슬 : 15초 동안 공격 속도 +8%, 캐스팅 속도 +12%\n- 흰색 구슬 : 15초 동안 최대 HP의 10% 수치의 보호막 효과 적용\n구슬 획득 시 자신의 HP, MP 1% 감소, 15초 동안 이동 속도 +20%",
+            "explainDetail": "공격 시 50% 확률로 10초 동안 유지되는 구슬을 생성하고 구슬 획득 시 아래의 효과 적용 (쿨타임 1초)\n- 검은색 구슬 : 15초 동안 공격 속도 +8%, 캐스팅 속도 +12% (최대 3중첩)\n- 흰색 구슬 : 15초 동안 최대 HP의 10% 수치의 보호막 효과 적용 (최대 1중첩)\n구슬 획득 시 자신의 HP, MP 1% 감소, 15초 동안 이동 속도 +20% (최대 1중첩)",
+            "damage": 1738,
+            "buff": 847
+          },
+          {
+            "level": 32,
+            "expRate": 73.91,
+            "explain": "이동 속도 30%당 스킬 쿨타임 회복 속도 10% 증가",
+            "explainDetail": "이동 속도 30%당 스킬 쿨타임 회복 속도 10% 증가 (최대 30% 증가, 각성기 제외)",
+            "damage": 1738,
+            "buff": 847
+          },
+          {
+            "level": 32,
+            "expRate": 30.43,
+            "explain": "물리 크리티컬 히트 +5%\n마법 크리티컬 히트 +5%",
+            "explainDetail": "물리 크리티컬 히트 +5%\n마법 크리티컬 히트 +5%",
+            "damage": 2185,
+            "buff": 910
+          },
+          {
+            "level": 33,
+            "expRate": 0,
+            "explain": "이동 속도 +8%",
+            "explainDetail": "이동 속도 +8%",
+            "damage": 2206,
+            "buff": 919
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "SUPPORT",
+      "slotName": "보조장비",
+      "itemId": "c8aedd82444ed4c34ed038df8a2673c7",
+      "itemName": "생명의 근원이 담긴 배낭",
+      "itemType": "추가장비",
+      "itemTypeDetail": "보조장비",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 0,
+      "itemGradeName": "최상급",
+      "enchant": {
+        "status": [
+          { "name": "물리 공격력", "value": 45 },
+          { "name": "마법 공격력", "value": 45 },
+          { "name": "독립 공격력", "value": 45 }
+        ]
+      },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 10585, "buff": 3732 },
+        "options": [
+          {
+            "level": 31,
+            "expRate": 80,
+            "explain": "명속성 저항 +50\n화, 수, 암속성 저항 -20",
+            "explainDetail": "명속성 저항 +50\n화, 수, 암속성 저항 -20",
+            "damage": 2459,
+            "buff": 865
+          },
+          {
+            "level": 35,
+            "expRate": 57.14,
+            "explain": "1초마다 명속성 강화 +2\n총 HP 1% 이상 데미지를 받을 시 명속성 강화 중첩수 5 감소\n피격 시 화, 수, 암속성 저항 -1\n물리, 마법 크리티컬 히트 +5%",
+            "explainDetail": "1초마다 명속성 강화 +2 (최대 10중첩)\n총 HP 1% 이상 데미지를 받을 시 명속성 강화 중첩수 5 감소\n피격 시 화, 수, 암속성 저항 -1 (최대 10중첩)\n물리, 마법 크리티컬 히트 +5%",
+            "damage": 2555,
+            "buff": 897
+          },
+          {
+            "level": 40,
+            "expRate": 1.05,
+            "explain": "물리 크리티컬 히트 +7%\n마법 크리티컬 히트 +7%\n모든 상태 이상 내성 10% 감소",
+            "explainDetail": "물리 크리티컬 히트 +7%\n마법 크리티컬 히트 +7%\n모든 상태 이상 내성 10% 감소",
+            "damage": 3365,
+            "buff": 1051
+          },
+          {
+            "level": 33,
+            "expRate": 69.23,
+            "explain": "HP MAX +600",
+            "explainDetail": "HP MAX +600",
+            "damage": 2206,
+            "buff": 919
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "MAGIC_STON",
+      "slotName": "마법석",
+      "itemId": "751c0ba167e2704956176b72e63fe89d",
+      "itemName": "미니 배터리 팩",
+      "itemType": "추가장비",
+      "itemTypeDetail": "마법석",
+      "itemAvailableLevel": 105,
+      "itemRarity": "에픽",
+      "setItemId": null,
+      "setItemName": null,
+      "reinforce": 0,
+      "itemGradeName": "최상급",
+      "enchant": { "status": [{ "name": "모든 속성 강화", "value": 16 }] },
+      "amplificationName": null,
+      "refine": 0,
+      "growInfo": {
+        "total": { "damage": 9378, "buff": 3584 },
+        "options": [
+          {
+            "level": 31,
+            "expRate": 50,
+            "explain": "스킬 시전 시 20초 동안 피해 증가 +920, 스킬 MP 소모량 20% 증가",
+            "explainDetail": "스킬 시전 시 20초 동안 피해 증가 +920, 스킬 MP 소모량 20% 증가 (최대 5중첩)",
+            "damage": 2459,
+            "buff": 865
+          },
+          {
+            "level": 33,
+            "expRate": 7.69,
+            "explain": "MP 20% 이하일 때 피해 증가 +4137",
+            "explainDetail": "MP 20% 이하일 때 피해 증가 +4137",
+            "damage": 2507,
+            "buff": 881
+          },
+          {
+            "level": 34,
+            "expRate": 56.67,
+            "explain": "적중률 +10%",
+            "explainDetail": "적중률 +10%",
+            "damage": 2227,
+            "buff": 928
+          },
+          {
+            "level": 32,
+            "expRate": 8.7,
+            "explain": "회피율 +8%",
+            "explainDetail": "회피율 +8%",
+            "damage": 2185,
+            "buff": 910
+          }
+        ]
+      }
+    },
+    {
+      "slotId": "EARRING",
+      "slotName": "귀걸이",
+      "itemId": "297a7f90713900aeb6804f39b4df02ef",
+      "itemName": "플라즈마 초 진공관",
+      "itemType": "추가장비",
+      "itemTypeDetail": "귀걸이",
+      "itemAvailableLevel": 105,
+      "itemRarity": "신화",
+      "setItemId": "cff2e64e3f4fb0669d77b11743d0cc6b",
+      "setItemName": "노멀라이즈 싱크로 세트",
+      "reinforce": 0,
+      "itemGradeName": "최상급",
+      "enchant": {
+        "status": [
+          { "name": "힘", "value": 110 },
+          { "name": "지능", "value": 110 },
+          { "name": "체력", "value": 110 },
+          { "name": "정신력", "value": 110 }
+        ]
+      },
+      "amplificationName": null,
+      "refine": 0,
+      "mythologyInfo": {
+        "options": [
+          {
+            "explain": "공격 시 데미지 증가량 8% 추가 증가",
+            "explainDetail": "공격 시 데미지 증가량 8% 추가 증가 (1%~12%)",
+            "buffExplain": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가",
+            "buffExplainDetail": "30Lv 버프 스킬 물리, 마법, 독립 공격력 증가량 8% 증가 (1%~12%)"
+          },
+          {
+            "explain": "힘, 지능 120 증가",
+            "explainDetail": "힘, 지능 120 증가 (100~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)",
+            "buffExplain": "수호의 은총 체력, 정신력 120 증가",
+            "buffExplainDetail": "수호의 은총 체력, 정신력 120 증가 (100~220, 해당 옵션 수치는 20의 배수로만 나옵니다.)"
+          },
+          {
+            "explain": "공격 시 1% 추가 데미지",
+            "explainDetail": "공격 시 1% 추가 데미지 (1%~12%)",
+            "buffExplain": "50Lv 액티브 스킬 힘, 지능 증가량 10 증가",
+            "buffExplainDetail": "50Lv 액티브 스킬 힘, 지능 증가량 10 증가 (10~120, 해당 옵션 수치는 10의 배수로만 나옵니다.)"
+          }
+        ]
+      }
+    }
+  ],
+  "avatar": [
+    {
+      "slotId": "HEADGEAR",
+      "slotName": "모자 아바타",
+      "itemId": "2ece336d5bdd0a325c5afabebc8e6f05",
+      "itemName": "고글 방탄 헬멧[A타입]",
+      "itemRarity": "커먼",
+      "clone": { "itemId": null, "itemName": null },
+      "random": { "itemId": null, "itemName": null },
+      "optionAbility": "정신력 45 증가",
+      "emblems": []
+    },
+    {
+      "slotId": "HAIR",
+      "slotName": "머리 아바타",
+      "itemId": "9595769fef306b7759d42b6bed455d47",
+      "itemName": "샤프 숏 헤어[A타입]",
+      "itemRarity": "커먼",
+      "clone": { "itemId": null, "itemName": null },
+      "random": { "itemId": null, "itemName": null },
+      "optionAbility": "정신력 45 증가",
+      "emblems": []
+    },
+    {
+      "slotId": "FACE",
+      "slotName": "얼굴 아바타",
+      "itemId": "38d82a1b565dcdbee67a1b77aac21648",
+      "itemName": "보호 마스크[A타입]",
+      "itemRarity": "커먼",
+      "clone": { "itemId": null, "itemName": null },
+      "random": { "itemId": null, "itemName": null },
+      "optionAbility": "공격 속도 5.0% 증가",
+      "emblems": []
+    },
+    {
+      "slotId": "JACKET",
+      "slotName": "상의 아바타",
+      "itemId": "1f7df025324e4eb655ebb571ef6f3338",
+      "itemName": "방탄 전투복 상의[A타입]",
+      "itemRarity": "커먼",
+      "clone": { "itemId": null, "itemName": null },
+      "random": { "itemId": null, "itemName": null },
+      "optionAbility": "액티베이션 스킬Lv +1",
+      "emblems": []
+    },
+    {
+      "slotId": "PANTS",
+      "slotName": "하의 아바타",
+      "itemId": "17a8ff893ae6fee4d84202e639b3c4bc",
+      "itemName": "방탄 전투복 하의[A타입]",
+      "itemRarity": "커먼",
+      "clone": { "itemId": null, "itemName": null },
+      "random": { "itemId": null, "itemName": null },
+      "optionAbility": "HP MAX 280 증가",
+      "emblems": []
+    },
+    {
+      "slotId": "SHOES",
+      "slotName": "신발 아바타",
+      "itemId": "d421d80454493dd9beec9713d7610d96",
+      "itemName": "전투화[A타입]",
+      "itemRarity": "커먼",
+      "clone": { "itemId": null, "itemName": null },
+      "random": { "itemId": null, "itemName": null },
+      "optionAbility": "힘 45 증가",
+      "emblems": []
+    },
+    {
+      "slotId": "BREAST",
+      "slotName": "목가슴 아바타",
+      "itemId": "9273d9925e7ac06bf711a5ffd0cf5558",
+      "itemName": "산탄총[A타입]",
+      "itemRarity": "커먼",
+      "clone": { "itemId": null, "itemName": null },
+      "random": { "itemId": null, "itemName": null },
+      "optionAbility": "공격 속도 5.0% 증가",
+      "emblems": []
+    },
+    {
+      "slotId": "WAIST",
+      "slotName": "허리 아바타",
+      "itemId": "359c3b93715983aa9e132ce2370e5c7e",
+      "itemName": "수통[A타입]",
+      "itemRarity": "커먼",
+      "clone": { "itemId": null, "itemName": null },
+      "random": { "itemId": null, "itemName": null },
+      "optionAbility": "회피율 4.0% 증가",
+      "emblems": []
+    }
+  ],
+  "creature": null,
+  "flag": {
+    "itemId": "bc060c8cf87fbf1135edd4a97c6ea413",
+    "itemName": "완벽한 수호의 문양 휘장",
+    "itemAvailableLevel": 50,
+    "itemRarity": "레전더리",
+    "reinforce": 0,
+    "itemAbility": "힘 +48, 물리공격력 +30",
+    "gems": [
+      {
+        "slotNo": 1,
+        "itemId": "88118485a92d1a1628f292d2ed888809",
+        "itemName": "영롱하게 빛나는 젬[물리크리티컬]",
+        "itemRarity": "유니크",
+        "itemAbility": "물리 크리티컬 히트 +1.5%"
+      },
+      {
+        "slotNo": 2,
+        "itemId": "1d7f73103b90a45d3a35f9b4b7517808",
+        "itemName": "영롱하게 빛나는 젬[이동속도]",
+        "itemRarity": "유니크",
+        "itemAbility": "이동속도 +3%"
+      },
+      {
+        "slotNo": 3,
+        "itemId": "afbee1d6459ffad8aaa43584e8ca205a",
+        "itemName": "영롱하게 빛나는 젬[공격속도]",
+        "itemRarity": "유니크",
+        "itemAbility": "공격속도 +3%"
+      },
+      {
+        "slotNo": 4,
+        "itemId": "605d981210cfb00aea2b4a35c1479f93",
+        "itemName": "영롱하게 빛나는 젬[명속성강화]",
+        "itemRarity": "유니크",
+        "itemAbility": "명속성강화 +7"
+      }
+    ]
+  },
+  "talismans": [
+    {
+      "talisman": {
+        "slotNo": 1,
+        "itemId": "3cdf3d245df4828b30c0803e50003921",
+        "itemName": "카펠라의 성흔 : 패트리어트 킥",
+        "runeTypes": ["테라코타", "서클메이지", "세컨드팩트"]
+      },
+      "runes": [
+        {
+          "slotNo": 1,
+          "itemId": "1b5b1f12501d38f7eef20ab45391d07d",
+          "itemName": "화려한 테라코타 룬 [부스트 : 다이너마이트 킥]"
+        },
+        {
+          "slotNo": 2,
+          "itemId": "29f7ed74e34cbf36cf660ab546afd4d5",
+          "itemName": "화려한 서클 메이지 룬 [맥피스]"
+        },
+        {
+          "slotNo": 3,
+          "itemId": "4496a3f044fde07bc06a706041d7fe39",
+          "itemName": "화려한 세컨드 팩트 룬 [AT-SO Walker]"
+        }
+      ]
+    },
+    {
+      "talisman": {
+        "slotNo": 2,
+        "itemId": "695d1e26c5796f605b0cd0ea19e7af15",
+        "itemName": "카펠라의 성흔 : 이모션 킬러",
+        "runeTypes": ["테라코타", "고대도서관", "세컨드팩트"]
+      },
+      "runes": [
+        {
+          "slotNo": 1,
+          "itemId": "f5445088aa05c27a3186620149f3f713",
+          "itemName": "화려한 테라코타 룬 [부스트 : 브리칭 다운]"
+        },
+        {
+          "slotNo": 2,
+          "itemId": "ed26aa57094b8bcc453e11fb0c52dd54",
+          "itemName": "화려한 고대 도서관 룬 [다이렉트 피드백]"
+        },
+        {
+          "slotNo": 3,
+          "itemId": "6c5f87450e1ac64eca68f2eb73231ee7",
+          "itemName": "선명한 세컨드 팩트 룬 [다이렉트 피드백]"
+        }
+      ]
+    },
+    {
+      "talisman": {
+        "slotNo": 3,
+        "itemId": "65d6217e1ed3ac3861826987e9663616",
+        "itemName": "새비지 테크닉",
+        "runeTypes": ["서클메이지", "수호자들", "고대도서관"]
+      },
+      "runes": [
+        {
+          "slotNo": 1,
+          "itemId": "4c29a59a44b0b96d5ba231d35d454e71",
+          "itemName": "화려한 서클 메이지 룬 [레이시온 크리트]"
+        },
+        {
+          "slotNo": 2,
+          "itemId": "e9942ff4756994e25c52d015da9307f1",
+          "itemName": "화려한 수호자들 룬 [포트리스 블리츠]"
+        },
+        {
+          "slotNo": 3,
+          "itemId": "ed26aa57094b8bcc453e11fb0c52dd54",
+          "itemName": "화려한 고대 도서관 룬 [다이렉트 피드백]"
+        }
+      ]
+    }
+  ]
+}

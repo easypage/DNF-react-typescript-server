@@ -1,5 +1,8 @@
 const APIHTTP = "https://api.neople.co.kr/df/servers/";
+const IMAGEHTTP = "https://img-api.neople.co.kr/df/servers/"
 const APIKEY = "apikey=kQbYDpSR4R20Lku7pxRJaDePiOiw0ZpZ";
+
+
 const SearchAPIKey = "?" + APIKEY;
 
 const axios = require('axios');
@@ -54,6 +57,11 @@ class CharacterSearch{
 
     return characterInfo;
   
+  }
+
+ characterImage(serverId, characterId) {
+
+    return IMAGEHTTP + serverId + "/characters/" + characterId;
   }
 }
 
