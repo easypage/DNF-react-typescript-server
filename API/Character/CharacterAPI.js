@@ -1,7 +1,7 @@
 const APIHTTP = "https://api.neople.co.kr/df/servers/";
 const IMAGEHTTP = "https://img-api.neople.co.kr/df/servers/";
-const APIKEY = "apikey=kQbYDpSR4R20Lku7pxRJaDePiOiw0ZpZ";
 
+const APIKEY = "apikey=kQbYDpSR4R20Lku7pxRJaDePiOiw0ZpZ";
 const SearchAPIKey = "?" + APIKEY;
 
 const axios = require("axios");
@@ -11,7 +11,6 @@ class CharacterSearch {
   async nickNameSearch(nickName) {
     const characterList = {};
 
-    // APIHTTP+"all/characters?characterName=%EB%A9%94%EB%A1%A0&WordType=full"+APIKEY
     try {
       const res = await axios.get(
         APIHTTP +
@@ -31,7 +30,6 @@ class CharacterSearch {
   async defaultSearch(serverId, characterId) {
     const CHARACTERHTTP = APIHTTP + serverId + "/characters/" + characterId;
     const characterInfo = {};
-    // const res = await axios.get(APIHTTP + serverValue + "/characters/" + characterId + APIKEY)
     try {
       const equipment = await axios.get(
         CHARACTERHTTP + "/equip/equipment" + SearchAPIKey

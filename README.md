@@ -10,15 +10,13 @@
 
 ## Character
 
-#
-
 ### nickNameSearch
 
 > 서버에서 닉네임을 검색 합니다.
 
 > Get
 
-> 파라미터 nickname(한글)
+> 파라미터 nickname
 
     https://dnf-react-typescript.herokuapp.com/character/nickname?nickname=<닉네임>
 
@@ -28,7 +26,7 @@
 
 #### 결과예시
 
-    {"rows":[{"serverId","characterId","characterName","level":110,"jobId","jobGrowId","jobName","jobGrowName"}]}
+    {"rows":[{"serverId","characterId","characterName","level","jobId","jobGrowId","jobName","jobGrowName"}]}
 
     #
 
@@ -49,8 +47,6 @@
 #### 결과예시
 
     {character:{},"equipment": [],  "avatar":[],  "creature":{},"talismans":[],}
-
-    #
 
 ### characterImage
 
