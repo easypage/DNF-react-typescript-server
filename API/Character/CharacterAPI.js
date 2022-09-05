@@ -8,13 +8,19 @@ const axios = require("axios");
 const urlencode = require("urlencode");
 
 class CharacterSearch {
-  async nickNameSearch(nickName) {
+  async nickNameSearch(serverId, nickName) {
     const characterList = {};
-
+    let server = "";
+    if (!serverId) {
+      server = "all";
+    } else {
+      server = serverId;
+    }
     try {
       const res = await axios.get(
         APIHTTP +
-          "all/characters?characterName=" +
+          server +
+          "/characters?characterName=" +
           urlencode.encode(nickName) +
           "&WordType=full" +
           "&" +

@@ -3,7 +3,7 @@ const {
   defaultSearch,
   nickNameSearch,
   characterImage,
-} = require("../API/CharacterAPI.js");
+} = require("../API/Character/CharacterAPI");
 const router = express.Router();
 
 router.use(function (req, res, next) {
@@ -16,17 +16,18 @@ router.get("/", function (req, res) {
 
 // 닉네임 검색
 router.get("/nickName", async function (req, res) {
-  const nickname = req.query.nickname;
+  const { serverId, nickname } = req.query;
 
   if (!nickname) {
-    res.status(400).Json({ error: ["400", "Bad Request"] });
+    return res.status(400).json({ error: ["400", "Bad Request"] });
+  }
+  const api = await nickNameSearch(serverId, nickname);
+
+  if (api.error) {
+    return res.status(500).json(api);
   }
 
-  const api = await nickNameSearch(nickname);
-  if (api.error) {
-    res.status(500).json(api);
-  }
-  res.status(200).json(api);
+  return res.status(200).json(api);
 });
 
 // 경로로 받기 체크
