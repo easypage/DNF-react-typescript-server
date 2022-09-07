@@ -26,7 +26,22 @@
 
 #### 결과예시
 
-    {"rows":[{"serverId","characterId","characterName","level","jobId","jobGrowId","jobName","jobGrowName"}]}
+```json
+{
+  "rows": [
+    {
+      "serverId": "",
+      "characterId": "",
+      "characterName": "",
+      "level": "",
+      "jobId": "",
+      "jobGrowId": "",
+      "jobName": "",
+      "jobGrowName": ""
+    }
+  ]
+}
+```
 
     #
 
@@ -46,7 +61,15 @@
 
 #### 결과예시
 
-    {character:{},"equipment": [],  "avatar":[],  "creature":{},"talismans":[],}
+```json
+{
+  "character":{...},
+  "equipment": [...],
+  "avatar":[...],
+  "creature":{...},
+  "talismans":[...],
+  }
+```
 
 ### characterImage
 
@@ -65,3 +88,47 @@ https://dnf-react-typescript.herokuapp.com/character/characterImage?serverId=pre
 #### 결과 예시
 
 ![캐릭터이미지 API 예결과](/readmeAsset/%EC%BA%90%EB%A6%AD%ED%84%B0%EC%9D%B4%EB%AF%B8%EC%A7%80.png)
+
+#
+
+## Auction(경매장검색)
+
+### itemSearch
+
+> 경매장에서 아이템을 검색합니다.
+
+> Get
+
+> 파라미터 itemNAme
+
+    https://dnf-react-typescript.herokuapp.com/auction/itemSearch?itemName=<아이템 이름>
+
+#### 예시
+
+     https://dnf-react-typescript.herokuapp.com/auction/itemSearch?itemName=무색
+
+#### 결과예시
+
+```json
+{"rows":[
+    {"auctionNo":1186335498,"regDate":"2022-09-06 14:33:29",
+    "expireDate":"2022-09-07 14:33:29",
+    "itemId":"785e56a0ed4e3efd573da1f56a45217d",
+    "itemName":"무색 큐브 조각",
+    "itemAvailableLevel":1,
+    "itemRarity":"언커먼","itemType":"스태커블",
+    "itemTypeDetail":"재료",
+    "refine":0,
+    "reinforce":0,
+    "amplificationName":null,
+    "adventureFame":0,
+    "count":700000,
+    "price":-1,
+    "currentPrice":58100000,
+    "unitPrice":83,
+    "averagePrice":78},
+    ...
+ ]
+
+ }
+```
