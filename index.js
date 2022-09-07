@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 5000;
 const cors = require("cors");
 
 const { CharcterRouter } = require("./Router/Character");
-const { ItemRouter } = require("./Router/Item");
+const { AuctionRouter } = require("./Router/Auction");
 const { EventRouter } = require("./Router/Event");
 
 app.listen(PORT);
@@ -15,7 +15,9 @@ app.use(express.json());
 app.use(express.static("public"));
 
 app.use("/character", CharcterRouter);
-app.use("/item", ItemRouter);
+app.use("/Auction", AuctionRouter);
 app.use("/event", EventRouter);
 
-app.get("/", function (req, res) {});
+app.get("/", function (req, res) {
+  res.send("dnf 페이지입니다.");
+});

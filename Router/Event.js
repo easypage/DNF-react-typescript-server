@@ -15,7 +15,9 @@ router.get("/", async function (req, res) {
 router.get("/banner", async function (req, res) {
   let bannerlist = [];
   await fs.readdirSync(dir).forEach((file) => {
-    bannerlist.push(file);
+    bannerlist.push(
+      "https://dnf-react-typescript.herokuapp.com/eventBanner/" + file
+    );
   });
 
   res.send(bannerlist);
