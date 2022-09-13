@@ -1,7 +1,5 @@
-const fs = require("fs");
-const dir = "./public/eventBanner";
-
 const express = require("express"); // express 임포트
+const eventList = require("../API/Event/EventBannerLIst");
 const router = express.Router();
 
 router.use(function (req, res, next) {
@@ -13,14 +11,7 @@ router.get("/", async function (req, res) {
 });
 
 router.get("/banner", async function (req, res) {
-  let bannerlist = [];
-  await fs.readdirSync(dir).forEach((file) => {
-    bannerlist.push(
-      "https://dnf-react-typescript.herokuapp.com/eventBanner/" + file
-    );
-  });
-
-  res.send(bannerlist);
+  res.send(eventList);
 });
 
 module.exports = { EventRouter: router };
