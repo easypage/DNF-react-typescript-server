@@ -173,9 +173,9 @@
 
 #### 예시
 
->     https://dnf-react-typescript.herokuapp.com/item/itemimage/<아이템ID>
+> https://dnf-react-typescript.herokuapp.com/item/itemimage?<ItemId>
 
-> https://dnf-react-typescript.herokuapp.com/item/itemimage/16f0995beea7ef49e854316eb9b34c79
+> https://dnf-react-typescript.herokuapp.com/item/itemimage?itemId=16f0995beea7ef49e854316eb9b34c79
 
 #### 결과예시
 
