@@ -6,6 +6,7 @@ const cors = require("cors");
 const { CharcterRouter } = require("./Router/Character");
 const { AuctionRouter } = require("./Router/Auction");
 const { EventRouter } = require("./Router/Event");
+const { ItemRouter } = require("./Router/Item");
 
 app.listen(PORT);
 
@@ -16,6 +17,7 @@ app.use(express.static("public"));
 
 app.use("/character", CharcterRouter);
 app.use("/Auction", AuctionRouter);
+app.use("/item", ItemRouter);
 app.use("/event", EventRouter);
 
 app.get("/", function (req, res) {
