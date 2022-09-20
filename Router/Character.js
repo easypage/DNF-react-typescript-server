@@ -30,8 +30,6 @@ router.get("/nickName", async function (req, res) {
   return res.status(200).json(api);
 });
 
-// 경로로 받기 체크
-
 router.get("/default", async function (req, res) {
   const { serverId, characterId } = req.query;
   // 파라미터 확인

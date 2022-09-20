@@ -133,6 +133,34 @@
 
 #
 
+## Event
+
+### banner
+
+> 이벤트 이름, 배너이미지주소를 리스트 형식으로 가져옵니다.
+
+> Get
+
+> 파라미터 없음
+
+#### 예시
+
+> https://dnf-react-typescript.herokuapp.com/event/banner
+
+#### 결과예시
+
+```json
+{
+  [
+  {url:"https://df.nexon.com/df/pg/chuseok2022", img: "https://dnf-react-typescript.herokuapp.com/eventBanner/오늘의던전.png"}
+  },
+ {url: "https://df.nexon.com/df/pg/landrunner2022", img: "https://dnf-react-typescript.herokuapp.com/eventBanner/로봇랜디.png"}
+ ]
+}
+```
+
+#
+
 ## Item
 
 ### itemimage
@@ -151,19 +179,4 @@
 
 #### 결과예시
 
-```json
-{
-  "rows": [
-    {
-      "serverId": "",
-      "characterId": "",
-      "characterName": "",
-      "level": "",
-      "jobId": "",
-      "jobGrowId": "",
-      "jobName": "",
-      "jobGrowName": ""
-    }
-  ]
-}
-```
+![캐릭터이미지 API 예결과](/readmeAsset/아이템이미지.png)
