@@ -1,7 +1,7 @@
 const APIHTTP = "https://api.neople.co.kr/df/servers/";
 const IMAGEHTTP = "https://img-api.neople.co.kr/df/servers/";
 
-const APIKEY = "apikey=kQbYDpSR4R20Lku7pxRJaDePiOiw0ZpZ";
+const APIKEY = "apikey=kQbYDpSR4R20Lku7pxRJaDePiOiw0ZpZ"|"apikey="+process.env.APIKEY;
 const SearchAPIKey = "?" + APIKEY;
 
 const axios = require("axios");

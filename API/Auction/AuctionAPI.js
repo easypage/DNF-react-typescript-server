@@ -1,4 +1,4 @@
-const APIKEY = "&apikey=kQbYDpSR4R20Lku7pxRJaDePiOiw0ZpZ";
+const APIKEY = "&apikey=kQbYDpSR4R20Lku7pxRJaDePiOiw0ZpZ"|"&apikey="+process.env.APIKEY;
 const AUCTIONITEMHTTP = "https://api.neople.co.kr/df/auction?itemName=";
 
 const axios = require("axios");
