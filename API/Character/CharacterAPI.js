@@ -16,6 +16,15 @@ class CharacterSearch {
     } else {
       server = serverId;
     }
+
+    console.log( APIHTTP +
+      server +
+      "/characters?characterName=" +
+      urlencode.encode(nickName) +
+      "&WordType=full" +
+      "&" +
+      APIKEY);
+
     try {
       const res = await axios.get(
         APIHTTP +
@@ -27,13 +36,6 @@ class CharacterSearch {
         APIKEY
         
       );
-      console.log( APIHTTP +
-        server +
-        "/characters?characterName=" +
-        urlencode.encode(nickName) +
-        "&WordType=full" +
-        "&" +
-        APIKEY);
       characterList.rows = res.data.rows;
     } catch (error) {
       characterList.error = error.response.data.error;
