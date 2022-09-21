@@ -24,8 +24,16 @@ class CharacterSearch {
           urlencode.encode(nickName) +
           "&WordType=full" +
           "&" +
-          APIKEY
+        APIKEY
+        
       );
+      console.log( APIHTTP +
+        server +
+        "/characters?characterName=" +
+        urlencode.encode(nickName) +
+        "&WordType=full" +
+        "&" +
+        APIKEY);
       characterList.rows = res.data.rows;
     } catch (error) {
       characterList.error = error.response.data.error;
