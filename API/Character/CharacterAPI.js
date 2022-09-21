@@ -77,10 +77,36 @@ class CharacterSearch {
   async characterStatus(serverId, characterId) {
     const CHARACTERHTTP =
       APIHTTP + serverId + "/characters/" + characterId + "/status?" + APIKEY;
-
     try {
       const res = await axios.get(CHARACTERHTTP);
-      return res.data.status;
+      const statusDefault = [
+        res.data.status[0],
+        res.data.status[1],
+        res.data.status[4],
+        res.data.status[5],
+        res.data.status[6],
+        res.data.status[7],
+        res.data.status[8],
+        res.data.status[9],
+        res.data.status[12],
+        null,
+        res.data.status[31],
+        res.data.status[32],
+        res.data.status[10],
+        res.data.status[11],
+        res.data.status[13],
+        res.data.status[14],
+        res.data.status[15],
+        null,
+      ];
+
+      const attributeEnhancement = [
+        res.data.status[23],
+        res.data.status[25],
+        res.data.status[27],
+        res.data.status[29],
+      ];
+      return { default: statusDefault, attributeEnhancement };
     } catch (error) {
       return error.response.data.error;
     }
