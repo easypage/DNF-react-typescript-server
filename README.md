@@ -69,6 +69,74 @@
   }
 ```
 
+### status
+
+> 캐릭터 아이디로 스텟정보를 검색합니다.
+
+> Get
+
+> 파라미터 serverId, charcterId(닉네임검색 value)
+
+#### 예시
+
+> https://dnf-react-typescript.herokuapp.com/character/status?serverId=<서버아이디>&characterId=<캐릭터아이디>
+
+> https://dnf-react-typescript.herokuapp.com/character/status?serverId=prey&characterId=9ea844d6c6a69c6770c3dadb2f413bf1
+
+#### 결과예시
+
+```json
+[
+  { "name": "HP", "value": 124547 },
+  { "name": "MP", "value": 160449 },
+  { "name": "물리 방어율", "value": 34.3 },
+  { "name": "마법 방어율", "value": 38.4 },
+  { "name": "힘", "value": 4303 },
+  { "name": "지능", "value": 2917 },
+  { "name": "체력", "value": 3011 },
+  { "name": "정신력", "value": 3137 },
+  { "name": "물리 공격", "value": 2871 },
+  { "name": "마법 공격", "value": 1977 },
+  { "name": "물리 크리티컬", "value": 102.9 },
+  { "name": "마법 크리티컬", "value": 36 },
+  { "name": "독립 공격", "value": 2018 },
+  { "name": "공격 속도", "value": 66 },
+  { "name": "캐스팅 속도", "value": 49 },
+  { "name": "이동 속도", "value": 48 },
+  { "name": "모험가 명성", "value": 26748 },
+  { "name": "적중률", "value": 14 },
+  { "name": "회피율", "value": 13 },
+  { "name": "HP 회복량", "value": 13179 },
+  { "name": "MP 회복량", "value": 15483 },
+  { "name": "경직도", "value": 0 },
+  { "name": "히트리커버리", "value": 844 },
+  { "name": "화속성 강화", "value": 209 },
+  { "name": "화속성 저항", "value": 31 },
+  { "name": "수속성 강화", "value": 106 },
+  { "name": "수속성 저항", "value": 21 },
+  { "name": "명속성 강화", "value": 196 },
+  { "name": "명속성 저항", "value": 21 },
+  { "name": "암속성 강화", "value": 106 },
+  { "name": "암속성 저항", "value": 56 },
+  { "name": "물리 방어", "value": 52280 },
+  { "name": "마법 방어", "value": 62280 },
+  { "name": "피해 증가", "value": 120694 },
+  { "name": "버프력", "value": 0 },
+  { "name": "데미지 증가", "value": 0 },
+  { "name": "크리티컬 데미지 증가", "value": 0 },
+  { "name": "추가 데미지 증가", "value": 0 },
+  { "name": "모든 공격력 증가", "value": 0 },
+  { "name": "스킬 공격력 증가", "value": 0 },
+  { "name": "물리 공격력 증가", "value": 0 },
+  { "name": "마법 공격력 증가", "value": 0 },
+  { "name": "독립 공격력 증가", "value": 0 },
+  { "name": "힘 증가", "value": 0 },
+  { "name": "지능 증가", "value": 0 },
+  { "name": "지속피해", "value": 0 },
+  { "name": "쿨타임 감소", "value": 0 }
+]
+```
+
 ### characterImage
 
 > 캐릭터카드 이미지를 줍니다.

@@ -3,6 +3,7 @@ const {
   defaultSearch,
   nickNameSearch,
   characterImage,
+  characterStatus,
 } = require("../API/Character/CharacterAPI");
 const router = express.Router();
 
@@ -54,6 +55,16 @@ router.get("/characterimage", function (req, res) {
   }
 
   res.redirect(characterImage(serverId, characterId));
+});
+
+router.get("/status", async function (req, res) {
+  const { serverId, characterId } = req.query;
+  // 파라미터 확인
+  if (!serverId | !characterId) {
+    return res.status(404).json({ error: ["400", "Bad Request"] });
+  }
+  const data = await characterStatus(serverId, characterId);
+  res.send(data);
 });
 
 module.exports = { CharcterRouter: router };

@@ -73,6 +73,18 @@ class CharacterSearch {
   characterImage(serverId, characterId) {
     return IMAGEHTTP + serverId + "/characters/" + characterId;
   }
+
+  async characterStatus(serverId, characterId) {
+    const CHARACTERHTTP =
+      APIHTTP + serverId + "/characters/" + characterId + "/status?" + APIKEY;
+
+    try {
+      const res = await axios.get(CHARACTERHTTP);
+      return res.data.status;
+    } catch (error) {
+      return error.response.data.error;
+    }
+  }
 }
 
 module.exports = new CharacterSearch();
