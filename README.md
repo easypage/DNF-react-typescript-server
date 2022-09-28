@@ -1,16 +1,28 @@
-# DNF-react-typescript-server
+# 🚀DNF-react-typescript-server
 
-# REST API
+## 🚀**관련 사이트**
 
-## 기본 도메인
+> **[FrontEnd(netlify) 배포](https://chimerical-genie-9befff.netlify.app/)**
+
+> **[BackEnd(heroku) 배포](https://dnf-react-typescript.herokuapp.com/)**
+
+> **[BackEnd(Github) 배포](https://github.com/easypage/DNF-react-typescript-server)**
+
+---
+
+# **🚀REST API**
+
+## **🌍 기본 도메인**
 
 > https://dnf-react-typescript.herokuapp.com/
 
 #
 
-## Character
+## **🌍 Character**
 
-### nickName
+#
+
+### **🌈 nickName**
 
 > 서버에서 닉네임을 검색 합니다.
 
@@ -18,13 +30,13 @@
 
 > 파라미터 nickname
 
-#### 예시
+#### **예시**
 
 > https://dnf-react-typescript.herokuapp.com/character/nickname?nickname=<닉네임>
 
 > https://dnf-react-typescript.herokuapp.com/character/nickname?nickname=메론맛어썰트
 
-#### 결과예시
+#### **결과예시**
 
 ```json
 {
@@ -43,7 +55,9 @@
 }
 ```
 
-### default
+#
+
+### **🌈 default**
 
 > 캐릭터 아이디로 상세 검색합니다.
 
@@ -51,13 +65,13 @@
 
 > 파라미터 serverId, charcterId(닉네임검색 value)
 
-#### 예시
+#### **예시**
 
 > https://dnf-react-typescript.herokuapp.com/character/default?serverId=<서버아이디>&characterId=<캐릭터아이디>
 
 > https://dnf-react-typescript.herokuapp.com/character/default?serverId=prey&characterId=9ea844d6c6a69c6770c3dadb2f413bf1
 
-#### 결과예시
+#### **결과예시**
 
 ```json
 {
@@ -69,7 +83,9 @@
   }
 ```
 
-### status
+#
+
+### **🌈 status**
 
 > 캐릭터 아이디로 스텟정보를 검색합니다.
 
@@ -77,13 +93,13 @@
 
 > 파라미터 serverId, charcterId(닉네임검색 value)
 
-#### 예시
+#### **예시**
 
 > https://dnf-react-typescript.herokuapp.com/character/status?serverId=<서버아이디>&characterId=<캐릭터아이디>
 
 > https://dnf-react-typescript.herokuapp.com/character/status?serverId=prey&characterId=9ea844d6c6a69c6770c3dadb2f413bf1
 
-#### 결과예시
+#### **결과예시**
 
 ```json{
   "default": [
@@ -116,7 +132,9 @@
 
 ```
 
-### characterImage
+#
+
+### **🌈 characterImage**
 
 > 캐릭터카드 이미지를 줍니다.
 
@@ -124,21 +142,23 @@
 
 > 파라미터 serverId, charcterId(닉네임검색 value)
 
-#### 예시
+#### **예시**
 
 > https://dnf-react-typescript.herokuapp.com/character/characterImage?serverId=<서버아이디>&characterId=<캐릭터아이디>
 
 > https://dnf-react-typescript.herokuapp.com/character/characterImage?serverId=prey&characterId=9ea844d6c6a69c6770c3dadb2f413bf1
 
-#### 결과 예시
+#### **결과 예시**
 
 ![캐릭터이미지 API 예결과](/readmeAsset/%EC%BA%90%EB%A6%AD%ED%84%B0%EC%9D%B4%EB%AF%B8%EC%A7%80.png)
 
 #
 
-## Auction(경매장검색)
+## **🌍 Auction(경매장검색)**
 
-### itemSearch
+#
+
+### **🌈 itemSearch**
 
 > 경매장에서 아이템을 검색합니다.
 
@@ -146,13 +166,13 @@
 
 > 파라미터 itemNAme
 
-#### 예시
+#### **예시**
 
 > https://dnf-react-typescript.herokuapp.com/auction/itemSearch?itemName=<아이템 이름>
 
 >     https://dnf-react-typescript.herokuapp.com/auction/itemSearch?itemName=무색
 
-#### 결과예시
+#### **결과예시**
 
 ```json
 {"rows":[
@@ -180,9 +200,11 @@
 
 #
 
-## Event
+## **🌍Event**
 
-### banner
+#
+
+### **🌈 banner**
 
 > 이벤트 이름, 배너이미지주소를 리스트 형식으로 가져옵니다.
 
@@ -190,11 +212,11 @@
 
 > 파라미터 없음
 
-#### 예시
+#### **예시**
 
 > https://dnf-react-typescript.herokuapp.com/event/banner
 
-#### 결과예시
+#### **결과예시**
 
 ```json
 {
@@ -208,9 +230,11 @@
 
 #
 
-## Item
+## **🌍 Item**
 
-### itemimage
+#
+
+### **🌈 itemimage**
 
 > 아이템의 이미지를 가져옵니다.
 
@@ -218,12 +242,12 @@
 
 > 파라미터 itemId(아이템 검색 값)
 
-#### 예시
+#### **예시**
 
 > https://dnf-react-typescript.herokuapp.com/item/itemimage?<ItemId>
 
 > https://dnf-react-typescript.herokuapp.com/item/itemimage?itemId=16f0995beea7ef49e854316eb9b34c79
 
-#### 결과예시
+#### **결과예시**
 
 ![캐릭터이미지 API 예결과](/readmeAsset/아이템이미지.png)
